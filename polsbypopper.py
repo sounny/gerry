@@ -23,5 +23,5 @@ def Model21(districts001_2_="districts001"):  # Polsby Popper
 
 if __name__ == '__main__':
     # Global Environment settings
-    with arcpy.EnvManager(scratchWorkspace=r"\\ict-mc1-fs01.ad.ufl.edu\wvt-ufapps-temp-storage$\UserData\msounnyslitine\Documents\ArcGIS\Packages\Summer Research_1d1a56\p20\summer_research.gdb", workspace=r"\\ict-mc1-fs01.ad.ufl.edu\wvt-ufapps-temp-storage$\UserData\msounnyslitine\Documents\ArcGIS\Packages\Summer Research_1d1a56\p20\summer_research.gdb"):
+    with arcpy.EnvManager(scratchWorkspace=r"c:\research.gdb", workspace=r"c:\summer_research.gdb"):
         Model21(*argv[1:])
